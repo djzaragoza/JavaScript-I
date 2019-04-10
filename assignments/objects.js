@@ -19,34 +19,42 @@ const example = {
 
 // Write your intern objects here:
 
-const interns = {
-  firstName: "Mitzi";
-  lastName: "Melloy";
-  email: "mmelloy@psu.edu";
-  gender: "F";
-
-  firstName: "Kennan";
-  lastName: "Diben";
-  email: "kdiben1@tinypic.com";
-  gender: "M";
-
-  firstName: "Keven";
-  lastName: "Mummery";
-  email: "kmummery2@wikimedia.org";
-  gender: "M";
-
-  firstName: "Gannie";
-  lastName: "Martinson";
-  email: "gmartinson3@illinois.edu";
-  gender: "M";
-
-  firstName: "Antonietta";
-  lastName: "Daine";
-  email: "adaine5@samsung.com";
-  gender: "F";
+const intern1 = {
+  firstName: "Mitzi",
+  lastName: "Melloy",
+  email: "mmelloy@psu.edu",
+  gender: "F",
 }
 
-console.log(Object.values(interns));
+const intern2 = {
+  firstName: "Kennan",
+  lastName: "Diben",
+  email: "kdiben1@tinypic.com",
+  gender: "M",
+}
+  
+const intern3 = {
+  firstName: "Keven",
+  lastName: "Mummery",
+  email: "kmummery2@wikimedia.org",
+  gender: "M",
+}
+  
+const intern4 = {
+  firstName: "Gannie",
+  lastName: "Martinson",
+  email: "gmartinson3@illinois.edu",
+  gender: "M",
+}
+  
+const intern5 = {
+  firstName: "Antonietta",
+  lastName: "Daine",
+  email: "adaine5@samsung.com",
+  gender: "F",
+}
+  
+console.log(Object.values(intern1, intern2, intern3, intern4, intern5));
 
 
 
