@@ -54,7 +54,7 @@ const intern5 = {
   gender: "F",
 }
   
-console.log(Object.values(intern1, intern2, intern3, intern4, intern5));
+// console.log(Object.values(intern1, intern2, intern3, intern4, intern5));
 
 
 
@@ -62,6 +62,7 @@ console.log(Object.values(intern1, intern2, intern3, intern4, intern5));
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+
 
 // Kennan's ID
 
