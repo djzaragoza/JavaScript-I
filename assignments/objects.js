@@ -20,36 +20,37 @@ const example = {
 // Write your intern objects here:
 
 const intern1 = {
-  firstName: "Mitzi",
-  lastName: "Melloy",
+  id: "10",
+  name: "Mitzi",
   email: "mmelloy@psu.edu",
   gender: "F",
 }
 
 const intern2 = {
-  firstName: "Kennan",
-  lastName: "Diben",
+  id: "20",
+  name: "Kennan",
   email: "kdiben1@tinypic.com",
   gender: "M",
 }
   
 const intern3 = {
-  firstName: "Keven",
+  id: "30",
+  name: "Keven",
   lastName: "Mummery",
   email: "kmummery2@wikimedia.org",
   gender: "M",
 }
   
 const intern4 = {
-  firstName: "Gannie",
-  lastName: "Martinson",
+  id: "40",
+  name: "Gannie",
   email: "gmartinson3@illinois.edu",
   gender: "M",
 }
   
 const intern5 = {
-  firstName: "Antonietta",
-  lastName: "Daine",
+  id: "50",
+  name: "Antonietta",
   email: "adaine5@samsung.com",
   gender: "F",
 }
